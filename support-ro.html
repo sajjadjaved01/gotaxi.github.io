@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 28px;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        form {
+            text-align: left;
+            margin-top: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    <title>Asistență pentru Go Taxi</title>
+</head>
+<body>
+    <h1>Contactați echipa de asistență Go Taxi</h1>
+
+    <p>Dacă aveți întrebări, nelămuriri sau aveți nevoie de asistență în legătură cu aplicația Go Taxi, vă rugăm să nu ezitați să contactați echipa noastră de asistență. Suntem aici pentru a vă ajuta!</p>
+
+    <form action="#" method="post">
+        <label for="name">Numele dumneavoastră:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Adresa de email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Subiect:</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="message">Mesaj:</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <input type="submit" value="Trimiteți">
+    </form>
+</body>
+</html>
