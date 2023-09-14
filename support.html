@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0 auto;
+            max-width: 800px;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 28px;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        form {
+            text-align: left;
+            margin-top: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    <title>Support for Go Taxi</title>
+</head>
+<body>
+    <h1>Contact Go Taxi Support</h1>
+
+    <p>If you have any questions, concerns, or need assistance with the Go Taxi app, please feel free to reach out to our support team. We are here to help!</p>
+
+    <form action="#" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="6" required></textarea>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
